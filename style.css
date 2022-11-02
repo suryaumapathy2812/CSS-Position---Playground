@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    margin: auto;
+}
+
+p{
+    padding: 1rem 0;
+}
+
+main section.presentation-section {
+    width: 90vw;
+    height: 80vh;
+    border: solid 1px black;
+    margin: 2rem auto;
+    overflow-x: scroll;
+}
+
+main section.input-section {
+    width: 90vw;
+    height: 80vh;
+    margin: 2rem auto;
+}
+
+.parent {
+    /* height: 100vh; */
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.child {
+    width: 5rem;
+    height: 5rem;
+    background-color: tomato;
+}
